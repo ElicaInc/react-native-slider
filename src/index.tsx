@@ -876,7 +876,7 @@ export class Slider extends PureComponent<SliderProps, SliderState> {
                                             translateY: 0,
                                         },
                                     ],
-                                    zIndex: i === this._activeThumbIndex ? 1 : 0, //kwata
+                                    zIndex: i === this._activeThumbIndex ? 1 : 0,
                                     ...valueVisibleStyle,
                                 },
                             ]}
