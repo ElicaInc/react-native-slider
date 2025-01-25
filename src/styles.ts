@@ -61,6 +61,7 @@ export const defaultStyles: {
         position: 'absolute',
         right: 0,
         top: 0,
+        zIndex: 1,
     },
     track: {
         borderRadius: TRACK_SIZE / 2,
